@@ -212,17 +212,20 @@ img, audio, video {
 label,
 input {
   box-sizing: border-box;
-  width: 100%;
   display: block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  border-radius: 0;
   margin: 0;
-  padding: 0.5em; /*14px/18*/
+  padding: 0; /*14px/18*/
 }
 
 input[type="email"] {
+}
+
+#box {
+  display: inline-block;
+
 }
 
 
