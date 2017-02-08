@@ -223,7 +223,7 @@ input {
 input[type="email"] {
 }
 
-#box {
+.box {
   display: inline-block;
 
 }
