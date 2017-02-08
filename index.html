@@ -9,19 +9,30 @@
 </head>
 <body>
   <form method="get" action="#null">
-    <h1>Student Discounts</h1>
+    <h1>Looking for organizations to join on-campus?</h1>
     <p>
-      Sign up to receive the lastest deals and
-      discounts right in your inbox!
+      Sign up to receive the lastest news about events going on
+      right in your inbox!
     </p>
     <ol>
+      <li id="input-org">
+        <p>What organization would you like to join?</p>
+        <li><label for="box1">National Society of Black Engineers (NSBE)</label>
+        <input type="checkbox" value="box1" id="box"/></li>
+        <li><label for="box2">African Student Organization (ASO)</label>
+        <input type="checkbox" value="box2" id="box" /></li>
+      </li>
       <li id="input-name">
         <label for="name">Name</label>
-        <input type="name" name="name" id="name" placeholder="john doe" />
+        <input type="name" name="name" id="name" placeholder="John Doe" pattern="^.+$" />
       </li>
       <li id="input-email">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+      </li>
+      <li id="input-text">
+        <label for="text">Year</label>
+        <input type="text" name="text" id="text" placeholder="Freshman" pattern="^.+$" />
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Sign Up!" />
