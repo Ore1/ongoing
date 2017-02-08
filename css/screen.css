@@ -194,11 +194,11 @@ html {
 h1 {
   font-size: 1.536em; /* 27.648px/18px */
   line-height: 1.2em; /* 33.178px @ 27.648px */
-  /*padding-top: 0; /* 22px 16.5px */
+  padding-top: 0; /* 22px 16.5px */
   font-weight: bold;
 }
 
-p {
+/*p {
   padding-bottom: 1.75em; /*28px/18;*/
 }
 
@@ -212,14 +212,14 @@ img, audio, video {
 label,
 input {
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   display: block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  border-radius: 0.5em;
-  margin: 0.5em;
-  padding: 0.77em; /*14px/18*/
+  border-radius: 0;
+  margin: 0;
+  padding: 0.5em; /*14px/18*/
 }
 
 input[type="email"] {
@@ -231,7 +231,7 @@ input[type="email"] {
 
 /* ===== MODULAR STYLES ===== */
 
-form li {
+/*form li {
   margin-bottom: 1.75em; /*28px/18;*/
 }
 
