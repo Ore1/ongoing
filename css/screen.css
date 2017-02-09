@@ -241,6 +241,7 @@ input {
 
 label[for="name"] {
   font-weight: bold;
+  padding-top: 1.222em
 }
 
 label[for="email"] {
@@ -250,9 +251,6 @@ label[for="email"] {
 label[for="year"] {
   font-weight: bold;
 }
-
-
-
 
 /* ===== LAYOUT STYLES ===== */
 
@@ -264,6 +262,8 @@ label[for="year"] {
   padding-top: 1.222em;
   padding-bottom: 1.222em;
 }
+
+
 
 
 /* ===== MODULAR STYLES ===== */
