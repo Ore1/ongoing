@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <link rel="stylesheet" media="screen" href="//basehold.it/28" />
+  <!--<link rel="stylesheet" media="screen" href="//basehold.it/28" />-->
 </head>
 <body>
 <main class="page">
@@ -20,18 +20,18 @@
         <p id="org">Which organization would you like to join?</p>
         <ol>
         <li><input type="checkbox" class="box" name="box1" value="box1" />
-        <li><label for="box1">National Society of Black Engineers (NSBE)</label></li>
-        <li class="box"><input type="checkbox" name="box2" value="box2" /></li>
-        <li><label for="box2" class="box">African Student Organization (ASO)</label></li>
+        <label for="box1" class="box">National Society of Black Engineers (NSBE)</label></li>
+        <li><input type="checkbox" class="box" name="box2" value="box2" />
+        <label for="box2" class="box">African Student Organization (ASO)</label></li>
         </ol>
       </li>
       <li id="input-name">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$" />
+        <label for="name">*Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$" required="true" />
       </li>
       <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+        <label for="email">*Email</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" required="true" />
       </li>
       <li id="input-year">
         <label for="year">Year</label>
