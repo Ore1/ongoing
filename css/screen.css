@@ -239,6 +239,19 @@ input {
   line-height: inherit;
 }
 
+label[for="name"] {
+  font-weight: bold;
+}
+
+label[for="email"] {
+  font-weight: bold;
+}
+
+label[for="year"] {
+  font-weight: bold;
+}
+
+
 
 
 /* ===== LAYOUT STYLES ===== */
