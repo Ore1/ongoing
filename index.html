@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Sign Up</title>
+  <title>Mailing List-Sign Up</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
   <link rel="stylesheet" media="screen" href="//basehold.it/28" />
 </head>
 <body>
+<main class="page">
   <form method="get" action="#null">
     <h1>Looking for organizations to join on-campus?</h1>
-    <p>
+    <p class="news">
       Sign up to receive the lastest news about events going on
       right in your inbox!
     </p>
     <ol>
       <li id="input-org">
-        <p>What organization would you like to join?</p>
-        <li class="box"><input type="checkbox" value="box1" /><label for="box1">National Society of Black Engineers (NSBE)</label></li>
-        <li class="box"><input type="checkbox" value="box2" /><label for="box2">African Student Organization (ASO)</label></li>
+        <p id="org">Which organization would you like to join?</p>
+        <ol>
+        <li class="box"><input type="checkbox" name="box1" value="box1" />
+        <li><label for="box1">National Society of Black Engineers (NSBE)</label></li>
+        <li class="box"><input type="checkbox" name="box2" value="box2" /></li>
+        <li><label for="box2">African Student Organization (ASO)</label></li>
+        </li>
+        </ol>
       </li>
       <li id="input-name">
         <label for="name">Name</label>
-        <input type="name" name="name" id="name" placeholder="John Doe" pattern="^.+$" />
+        <input type="name" name="name" id="name" placeholder="John Doe" pattern="^.+$" required="*" />
       </li>
       <li id="input-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" required="*" />
       </li>
-      <li id="input-text">
-        <label for="text">Year</label>
-        <input type="text" name="text" id="text" placeholder="Freshman" pattern="^.+$" />
+      <li id="input-year">
+        <label for="year">Year</label>
+        <select name="year" class="years">
+          <option value="value1">Not selected</option>
+          <option value="value2">Freshman</option> 
+          <option value="value3">Sophomore</option>
+          <option value="value4">Junior</option>
+          <option value="value5">Senior</option>
+          <option value="value6">Fifth-Year</option>
+          <option value="value7">Graduate</option>
+        </select>
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Sign Up!" />
       </li>
     </ol>
   </form>
+</main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
 </body>
