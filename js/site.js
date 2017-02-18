@@ -9,6 +9,7 @@ jQuery(function($){
   $('email').on('keyup focus blur', function(){
     var currentValue = $(this).val();
     var vaildPattern = $(this).attr('pattern');
+    console.log(currentValue, vaildPattern);
     if(currentValue.match(vaildPattern)){
       $('#submit').addClass('active');
     }
