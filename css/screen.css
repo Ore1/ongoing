@@ -220,23 +220,9 @@ input {
   padding: 0; /*14px/18*/
 }
 
-#input-email {
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
-}
-
-#input-submit {
-  padding-top: 1.222em;
-}
-
-.box {
-  display: inline-block;
-}
-
-.years {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  display: inline;
 }
 
 label[for="name"] {
@@ -245,10 +231,6 @@ label[for="name"] {
 }
 
 label[for="email"] {
-  font-weight: bold;
-}
-
-label[for="year"] {
   font-weight: bold;
 }
 
@@ -263,8 +245,20 @@ label[for="year"] {
   padding-bottom: 1.222em;
 }
 
+#input-email {
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
+}
 
+#input-submit {
+  padding-top: 1.222em;
+}
 
+.years {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
 
 /* ===== MODULAR STYLES ===== */
 
@@ -274,7 +268,7 @@ label[for="year"] {
 
 /* ===== STATE STYLES ===== */
 .hasjs input[type="submit"] {
-  position: absolute;
+  position: static;
   left: -55.55em;/*-1000px*/
 }
 
