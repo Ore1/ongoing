@@ -10,24 +10,35 @@
 <body>
 <main class="page">
   <form method="get" action="#null">
-    <h1>Looking for organizations to join on-campus?</h1>
+    <h1 class="icon-user">Looking for organizations to join on-campus?</h1>
     <p class="news">
       Sign up to receive the lastest news about events going on
-      right in your inbox!
-    </p>
+      right in your inbox!</p>
+    <h2 class="about1">ABOUT</h2>
+    <ol>
+      <li class="nsbe">National Society of Black Engineers</li>
+        <p class="info">The organization is dedicated to the academic and   
+          professional success of African-American engineering students and professionals. NSBE offers its members leadership training, professional development activities, mentoring opportunities, career placement services and more.
+        </p>
+    </ol>
+    <h2 class="about2">ABOUT</h2>
+    <ol>
+      <li class="aso">African Student Organization</li>
+        <p class="info2">We are the African students at Illinois Tech. We are committed to enlightening the Illinois Tech Campus, and chicago at large, about the rich cultures of the different nations that make up our continent. It is also our goal to provide a community where the African students at Illinois Tech can feel at home.
+        </p>
     <ol>
       <li id="input-org">
-        <p id="org">Which organization would you like to join?</p>
+        <p id="org">Which organization(s) would you like to join?</p>
         <ol>
         <li><input type="checkbox" class="box" name="box1" value="box1" />
-        <label for="box1" class="box">National Society of Black Engineers (NSBE)</label></li>
+        <label for="box1" class="box">National Society of Black Engineers (NSBE-IIT)</label></li>
         <li><input type="checkbox" class="box" name="box2" value="box2" />
-        <label for="box2" class="box">African Student Organization (ASO)</label></li>
+        <label for="box2" class="box">African Student Organization (ASO-IIT)</label></li>
         </ol>
       </li>
       <li id="input-name">
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$" />
+        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$"  />
       </li>
       <li id="input-email">
         <label for="email">Email</label>
