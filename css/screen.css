@@ -206,7 +206,7 @@ h1 {
 /* Responsive Media */
 img, audio, video {
   display: block;
-  max-width: 100%;
+  max-width: 30%;
 }
 
 /* Form */
@@ -295,9 +295,10 @@ label[for="email"] {
   padding-bottom: 0;
 }
 
-.pic {
-  max-width: 10%;
+/*.pic {
+  text-align: center;
 }
+
 
 
 /*Fontello Font*/
