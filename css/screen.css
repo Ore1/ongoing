@@ -192,8 +192,8 @@ html {
 }
 
 h1 {
-  font-size: 1.536em; /* 27.648px/18px */
-  line-height: 1.2em; /* 33.178px @ 27.648px */
+  font-size: 1.28em; /* 23.04px/18px */
+  line-height: 1.2em; /* 27.648px @ 23.04px */
   padding-top: 0; /* 22px 16.5px */
   font-weight: bold;
   text-align: center;
@@ -235,6 +235,19 @@ label[for="email"] {
   font-weight: bold;
 }
 
+input[type="text"] {
+  padding: 0.153em; /*22px/6 */
+}
+
+input[type="email"] {
+  padding: 0.153em;
+}
+
+input[type="submit"] {
+  padding: 0.153em; /*22px/6 */
+  font-weight: bold;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 .page {
@@ -246,19 +259,18 @@ label[for="email"] {
   padding-bottom: 1.222em;
 }
 
+#org {
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
+}
+
 #input-email {
   padding-top: 1.222em;
   padding-bottom: 1.222em;
 }
 
 #input-submit {
-  padding-top: 1.222em;
-}
-
-.years {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  padding-bottom: 1.222em;
 }
 
 .about1 {
@@ -288,7 +300,8 @@ label[for="email"] {
 }
 
 .form {
-  background-color: #DEB887;
+  border: 1px solid #F4A460;
+  background-color: #F4A460;
   border-radius: 0.3em;
   padding: 1.222em 0.917em;; /* 22px 16.5px */
   padding-top: 0; /*22px*/
