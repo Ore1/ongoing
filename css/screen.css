@@ -197,6 +197,11 @@ h1 {
   padding-top: 0; /* 22px 16.5px */
   font-weight: bold;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #F4A460;
 }
 
 /*p {
@@ -300,7 +305,6 @@ input[type="submit"] {
 }
 
 .form {
-  border: 1px solid #F4A460;
   background-color: #F4A460;
   border-radius: 0.3em;
   padding: 1.222em 0.917em;; /* 22px 16.5px */
@@ -308,14 +312,8 @@ input[type="submit"] {
   padding-bottom: 0;
 }
 
-/*.pic {
-  text-align: center;
-}
-
-
-
 /*Fontello Font*/
-/*@font-face {
+@font-face {
   font-family: 'email';
   src: url('font/email.eot?3472075');
   src: url('font/email.eot?3472075#iefix') format('embedded-opentype'),
@@ -337,7 +335,7 @@ input[type="submit"] {
 }
 */
  
- /*[class^="icon-"]:before, [class*=" icon-"]:before {
+ [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "email";
   font-style: normal;
   font-weight: normal;
@@ -351,28 +349,28 @@ input[type="submit"] {
   /* opacity: .8; */
  
   /* For safety - reset parent styles, that can break glyph codes*/
-  /*font-variant: normal;
+  font-variant: normal;
   text-transform: none;
  
   /* fix buttons height, for twitter bootstrap */
-  /*line-height: 1em;
+  line-height: 1em;
  
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  /*margin-left: .2em;
+  margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 120%; */
  
   /* Font smoothing. That was taken from TWBS */
-  /*-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-/*.icon-user:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e800'; } /* '' */
 
 /* ===== MODULAR STYLES ===== */
 
