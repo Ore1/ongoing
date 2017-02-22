@@ -6,7 +6,7 @@ jQuery(function($){
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 
-  $('email').on('keyup focus blur', function(){
+  $('#email').on('keyup focus blur', function(){
     var currentValue = $(this).val();
     var vaildPattern = $(this).attr('pattern');
     console.log(currentValue, vaildPattern);
