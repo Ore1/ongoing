@@ -395,6 +395,11 @@ input[type="submit"] {
     line-height: 1.2em; /*27.648px @ 23.04px*/
   }
 
+  .form {
+    width: 52%;
+    margin-left: 20%;
+  }
+
 /* 1024px @ 16px for laptop */
 @media screen and (min-width: 64em) {
   .para {
