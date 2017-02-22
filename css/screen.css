@@ -399,13 +399,15 @@ input[type="submit"] {
 @media screen and (min-width: 64em) {
   .para {
     width: 43.49%; /*334/768 = 0.4349*/
+    margin-left: 5%;
     position: absolute;
   }
 
   .form {
-    width: 35%; /*334/768 = 0.4349*/
+    width: 25%; /*334/768 = 0.4349*/
     float: right;
-    margin-top: 5em;
+    margin-right: 13%;
+    margin-top: 3em;
   }
 }
 .hasjs input[type="submit"] {
