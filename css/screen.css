@@ -259,6 +259,7 @@ input[type="submit"] {
 }
 
 .news {
+  text-align: center;
   padding-bottom: 1.222em;
 }
 
@@ -394,22 +395,19 @@ input[type="submit"] {
     line-height: 1.2em; /*27.648px @ 23.04px*/
   }
 
-  /*.purpose {
-    width: 43.49%; /*334/768 = 0.4349*/
-  /*}*/
-/*}*/
-
 /* 1024px @ 16px for laptop */
-/*@media screen and (min-width: 43.75em) {
-  html {
-    font-size: 1.44em; /*23.04px @ 16px*/
-    /*line-height: 1.2em; /*27.648px @ 23.04px*
+@media screen and (min-width: 64em) {
+  .para {
+    width: 43.49%; /*334/768 = 0.4349*/
+    position: absolute;
   }
 
-  /*.purpose {
-    width: 43.49%; /*334/768 = 0.4349*/
-  /*}*/
-/*}*/
+  .form {
+    width: 35%; /*334/768 = 0.4349*/
+    float: right;
+    margin-top: 5em;
+  }
+}
 .hasjs input[type="submit"] {
   position: absolute;
   left: -5555.556em;/*-100000px*/
