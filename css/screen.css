@@ -226,6 +226,8 @@ input {
 input[type="checkbox"],
 input[type="checkbox"] + label {
   display: inline;
+  width: 1em;
+  height: 1em;
 }
 
 label[for="name"] {
@@ -385,7 +387,19 @@ input[type="submit"] {
 6 x 106.4px = 638.4px Grid 2
 */
 
-/* 700px @ 16px for tablet/ipad scale */
+/* 500px @ 16px for tablet/ipad scale */
+@media screen and (min-width: 31.25em) {
+  html {
+    font-size: 1.44em; /*23.04px @ 16px*/
+    line-height: 1.2em; /*27.648px @ 23.04px*/
+  }
+
+  /*.purpose {
+    width: 43.49%; /*334/768 = 0.4349*/
+  /*}*/
+/*}*/
+
+/* 1024px @ 16px for laptop */
 /*@media screen and (min-width: 43.75em) {
   html {
     font-size: 1.44em; /*23.04px @ 16px*/
