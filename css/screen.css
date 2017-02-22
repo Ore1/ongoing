@@ -409,9 +409,9 @@ input[type="submit"] {
   }
 
   .form {
-    width: 25%; /*334/768 = 0.4349*/
+    width: 30%; /*334/768 = 0.4349*/
     float: right;
-    margin-right: 13%;
+    margin-right: 5%;
     margin-top: 3em;
   }
 }
