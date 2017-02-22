@@ -194,17 +194,15 @@ html {
 h1 {
   font-size: 1.28em; /* 23.04px/18px */
   line-height: 1.2em; /* 27.648px @ 23.04px */
-  font-weight: bold;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
   font-weight: bold;
-  text-align: center;
   background-color: #F4A460;
 }
 
 /*p {
-  padding-bottom: 1.75em; /*28px/18;*/
+  padding-bottom: 1.75em; /*28px/18;
 }
 
 /* Responsive Media */
@@ -232,7 +230,7 @@ input[type="checkbox"] + label {
 
 label[for="name"] {
   font-weight: bold;
-  padding-top: 1.222em
+  padding-top: 1.222em;
 }
 
 label[for="email"] {
@@ -365,7 +363,7 @@ input[type="submit"] {
   -moz-osx-font-smoothing: grayscale;
  
   /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
 }
  
 /*.icon-user:before { content: '\e800'; } /* '' */
@@ -373,7 +371,7 @@ input[type="submit"] {
 /* ===== MODULAR STYLES ===== */
 
 /*form li {
-  margin-bottom: 1.75em; /*28px/18;*/
+  margin-bottom: 1.75em; /*28px/18;
 }
 
 /* ===== STATE STYLES ===== */
@@ -391,16 +389,16 @@ input[type="submit"] {
 /*@media screen and (min-width: 43.75em) {
   html {
     font-size: 1.44em; /*23.04px @ 16px*/
-    /*line-height: 1.2em; /*27.648px @ 23.04px*/
+    /*line-height: 1.2em; /*27.648px @ 23.04px*
   }
 
   /*.purpose {
     width: 43.49%; /*334/768 = 0.4349*/
-  }
-}
-.hasjs input[type="submit"].active {
-  position: static;
-  left: -55.55em;/*-1000px*/
+  /*}*/
+/*}*/
+.hasjs input[type="submit"] {
+  position: absolute;
+  left: -5555.556em;/*-100000px*/
 }
 
 .hasjs input[type="submit"].active {
