@@ -186,6 +186,7 @@ textarea {
 html {
   font-size: 1.125em; /* 18px/16px */
   line-height: 1.222em; /* 22px /18px */
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
   background-color: #F3F3F3;
   color: #222;
   font-weight: 400;
@@ -194,6 +195,7 @@ html {
 h1 {
   font-size: 1.28em; /* 23.04px/18px */
   line-height: 1.2em; /* 27.648px @ 23.04px */
+  font-family: inherit;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -219,8 +221,6 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin: 0;
-  padding: 0; /*14px/18*/
 }
 
 input[type="checkbox"],
@@ -297,7 +297,8 @@ input[type="submit"] {
 }
 
 .form {
-  background-color: #F4A460;
+  border: 0.1875em solid; /*3px/16px*/
+  /*background-color: #F4A460;*/
   border-radius: 0.3em;
   padding: 1.222em 0.917em;; /* 22px 16.5px */
   padding-top: 0; /*22px*/
