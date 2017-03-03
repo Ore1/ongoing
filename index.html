@@ -5,16 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <!--<link rel="stylesheet" media="screen" href="//basehold.it/22" />-->
+  <!--<link rel="stylesheet" media="screen" href="//basehold.it/23" />-->
 </head>
 <body>
-    <h1>On-Campus Organizations!</h1>
+<header>
+    <h1>On-Campus Organizations</h1>
+</header>
 <main class="page">
     <p class="news">
       Sign up to receive the lastest news about events going on
       right in your inbox!</p>
     <section class="para">
-    <!--<h2 class="about1">ABOUT</h2>-->
       <figure>
         <img 
           src="img/nsbe-50.jpg" alt="NSBE Logo" class="pic" />
@@ -25,7 +26,6 @@
       and professional success of African-American engineering students and professionals. NSBE offers its members leadership training, professional development activities, mentoring opportunities, career placement services and more.
     </p>
     </ol>
-    <!--<h2 class="about2">ABOUT</h2>-->
       <figure>
         <img 
           src="img/aso-50.jpg" alt="ASO Logo" class="pic" />
@@ -37,7 +37,8 @@
     </p>
     </ol>
     </section>
-    <form method="get" action="#null" class="form">
+    <section class="form1">
+    <form method="get" action="#null" class="form" id="form">
     <ol>
       <li id="input-org">
     <p id="org">Which organization(s) would you like to join?</p>
@@ -48,19 +49,20 @@
         <label for="box" class="box">African Student Organization (ASO-IIT)</label></li>
         </ol>
       </li>
-      <li id="input-name">
+      <li id="input-name" class="icon-user">
         <label for="name">Full Name</label>
-        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$" class="icon-user" />
+        <input type="text" name="name" id="name" placeholder="John Doe" pattern="^.+$" />
       </li>
       <li id="input-email">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
       </li>
       <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Join!" />
+        <input type="submit" name="submit" id="submit" value="Join!" class="clearForm"/>
       </li>
     </ol>
   </form>
+  </section>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
