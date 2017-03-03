@@ -184,21 +184,21 @@ textarea {
 /* Setting style to a minor third modular scale */
 
 html {
-  font-size: 1.125em; /* 18px/16px */
-  line-height: 1.222em; /* 22px /18px */
-  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  font-size: 1.2em; /* 19.2px/16px */
+  line-height: 1.198em; /* 23px /19.2px */
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   background-color: #FFFFFF;
   color: #222;
   font-weight: 400;
 }
 
 h1 {
-  font-size: 1.28em; /* 23.04px/18px */
-  line-height: 1.2em; /* 27.648px @ 23.04px */
+  font-size: 1.188em; /* 23.04px/19.2px */
+  line-height: 1.997em; /* 46px @ 23.04px */
   font-family: inherit;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1.1988em; /* 23px /19.2px */
+  padding-bottom: 1.1988em; /* 23px /19.2px */
   font-weight: bold;
   background-color: #CCCC9A;
 }
@@ -219,8 +219,8 @@ input {
   box-sizing: border-box;
   display: block;
   font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  /*font-size: inherit;
+  line-height: inherit;*/
 }
 
 input[type="checkbox"],
@@ -232,7 +232,7 @@ input[type="checkbox"] + label {
 
 label[for="name"] {
   font-weight: bold;
-  padding-top: 1.222em;
+  padding-top: 1.198em;
 }
 
 label[for="email"] {
@@ -240,41 +240,44 @@ label[for="email"] {
 }
 
 input[type="text"] {
-  padding: 0.153em; /*22px/6 */
+  /*padding: 0.153em; /*22px/6 */
+  height: 1.997em; /* 23px /19.2px */
 }
 
 input[type="email"] {
-  padding: 0.153em;
+  /*padding: 0.153em;*/
+  height: 1.997em; /* 23px /19.2px */
 }
 
 input[type="submit"] {
-  padding: 0.153em; /*22px/6 */
+  /*padding: 0.153em; /*22px/6 */
   font-weight: bold;
+  height: 1.997em; /* 23px /19.2px */
 }
 
 /* ===== LAYOUT STYLES ===== */
 
 .page {
-  padding: 1.222em;
+  padding: 1.198em; /* 23px /19.2px */
 }
 
 .news {
   text-align: center;
-  padding-bottom: 1.222em;
+  padding-bottom: 1.198em;
 }
 
 #org {
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  padding-top: 1.198em;
+  padding-bottom: 1.198em;
 }
 
 #input-email {
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  padding-top: 1.198em;
+  padding-bottom: 1.198em;
 }
 
 #input-submit {
-  padding-bottom: 1.222em;
+  padding-bottom: 1.198em;
 }
 
 .nsbe {
@@ -283,24 +286,24 @@ input[type="submit"] {
 }
 
 .info {
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  padding-top: 1.198em;
+  padding-bottom: 1.198em;
 }
 
 .aso {
-  padding-bottom: 1.222em;
+  padding-bottom: 1.198em;
   font-weight: bold;
 }
 
 .info2 {
-  padding-bottom: 1.222em;
+  padding-bottom: 1.198em;
 }
 
 .form {
-  /*border: 0.1875em solid; /*3px/16px*/
+  border: 0.1875em; /*3px/16px*/
   background-color: #DCDCDC;
   border-radius: 0.3em;
-  padding: 1.222em 0.917em;; /* 22px 16.5px */
+  padding: 1.198em; /* 0.917em; /* 23px 16.5px */
   padding-top: 0; /*22px*/
   padding-bottom: 0;
 }
@@ -309,7 +312,7 @@ input[type="submit"] {
 }
 
 /*Fontello Font*/
-@font-face {
+/*@font-face {
   font-family: 'email';
   src: url('font/email.eot?3472075');
   src: url('font/email.eot?3472075#iefix') format('embedded-opentype'),
@@ -330,8 +333,7 @@ input[type="submit"] {
   }
 }
 */
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
+ /*[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "email";
   font-style: normal;
   font-weight: normal;
@@ -345,38 +347,42 @@ input[type="submit"] {
   /* opacity: .8; */
  
   /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
+  /*font-variant: normal;
   text-transform: none;
  
   /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
+  /*line-height: 1em;
  
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  /*margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
   /*font-size: 120%; */
  
   /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
-*/}
+*/
  
-.icon-user:before { content: '\e800'; } /* '' */
+/*.icon-user:before { content: '\e800'; } /* '' */
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+/*[class^="icon-"]:before, [class*=" icon-"]:before {
   position: absolute;
-  left: 13px;
+  content: '\e800';
 }
 
 /* ===== MODULAR STYLES ===== */
 
 /*form li {
   margin-bottom: 1.75em; /*28px/18;
+}*/
+
+#submit:hover {
+  background-color: #CCCC9A;
 }
 
 /* ===== STATE STYLES ===== */
@@ -393,8 +399,8 @@ input[type="submit"] {
 /* 500px @ 16px for tablet/ipad scale */
 @media screen and (min-width: 31.25em) {
   html {
-    font-size: 1.44em; /*23.04px @ 16px*/
-    line-height: 1.2em; /*27.648px @ 23.04px*/
+    font-size: 1.188em; /* 23.04px/19.4px */
+    line-height: 1.198em; /* 23px /19.2px */
   }
 
   .form {
@@ -402,20 +408,37 @@ input[type="submit"] {
     margin-left: 20%;
   }
 
+  .aso {
+    padding-top: 0.49em;
+  }
+  .nsbe {
+    padding-top: 1.198em;
+  }
+}
+
 /* 1024px @ 16px for laptop */
 @media screen and (min-width: 64em) {
   .para {
     width: 43.49%; /*334/768 = 0.4349*/
     margin-left: 5%;
     position: absolute;
+    padding-top: 1.198em;
   }
-
-  .form {
-    width: 30%; /*334/768 = 0.4349*/
+  .form1 {
+    width: 43.49%; /*334/768 = 0.4349*/
     float: right;
     margin-right: 5%;
+    padding-top: 1.198em;
+  }
+
+  .aso {
+    padding-top: 0.49em;
+  }
+  .nsbe {
+    padding-top: 1.198em;
   }
 }
+
 .hasjs input[type="submit"] {
   position: absolute;
   left: -5555.556em;/*-100000px*/
