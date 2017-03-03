@@ -16,16 +16,13 @@ jQuery(function($){
       $('#submit').removeClass('active');
     }
   });
-
   function clearForm() {
   $('#form')[0].reset();
 }
-
   $('#form').submit(function(event) {
     alert('Thank you! Your response has been recorded!');
     event.preventDefault();
 
     clearForm();
   });
-
 });
