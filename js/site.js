@@ -9,7 +9,6 @@ jQuery(function($){
   $('#email').on('keyup focus blur', function(){
     var currentValue = $(this).val();
     var vaildPattern = $(this).attr('pattern');
-    console.log(currentValue, vaildPattern);
     if(currentValue.match(vaildPattern)){
       $('#submit').addClass('active');
     }
@@ -17,4 +16,16 @@ jQuery(function($){
       $('#submit').removeClass('active');
     }
   });
+
+  function clearForm() {
+  $('#form')[0].reset();
+}
+
+  $('#form').submit(function(event) {
+    alert('Thank you! Your response has been recorded!');
+    event.preventDefault();
+
+    clearForm();
+  });
+
 });
